@@ -1,0 +1,8 @@
+services:
+  ifx-php:
+    container_name: ifx-php
+    build:
+      context: .
+    volumes:
+      - .:/app
+    working_dir: /app

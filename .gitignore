@@ -1,0 +1,9 @@
+# IDE files
+.idea/
+
+# Composer
+/vendor/
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
